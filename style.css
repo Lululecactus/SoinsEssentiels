@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 2em;
   z-index: 1000;
 
   /* Glassmorphism */
@@ -22,25 +21,64 @@
 }
 
 
+nav{
+    padding-right: 35px
+}
 
 
 .logo{
     display:flex ;
     align-items: center;
+    padding: 0 35px;
 }
 
 
 nav ul{
     display: flex;
     list-style: none;
-    
+
 }
 
-nav li{
-    padding-right: 35px;
-    
+nav li {
+    padding: 10px 35px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: black;
+}
+
+nav li:hover {
+    background-color: #E38833;
+    border-radius: 30px;
+    color: #fff;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow:
+        inset 0.2em 0.2em 0.3em rgba(255, 255, 255, 0.2),
+        inset -0.2em -0.2em 0.3em rgba(0, 0, 0, 0.1),
+        0 0 0.5em rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+
+
+nav li i{
+    margin-left: 3px;
+    font-size: 18px;
 }
 
 nav a {
     text-decoration: none;
+}
+
+.hero-banner{
+    background-color: #DED2C8;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-banner img {
+    margin: auto;
+    height: 100vh;
+    scale: 1.2;
 }
