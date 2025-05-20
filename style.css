@@ -1,0 +1,46 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  z-index: 1000;
+
+  /* Glassmorphism */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1em;
+  box-shadow:
+    inset 0.3em 0.3em 0.5em color-mix(in srgb, rgba(255, 255, 255, 0.1) 70%, rgba(0, 0, 0, 0.6) 30%),
+    inset -0.3em -0.3em 0.5em color-mix(in srgb, rgba(255, 255, 255, 0.1) 70%, rgba(255, 255, 255, 0.6) 30%),
+    0 0 1em rgba(255, 255, 255, 0.05);
+}
+
+
+
+
+.logo{
+    display:flex ;
+    align-items: center;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+nav li{
+    padding-right: 35px;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
