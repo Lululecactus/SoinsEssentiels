@@ -79,6 +79,5 @@ nav a {
 
 .hero-banner img {
     margin: auto;
-    height: 100vh;
-    scale: 1.2;
+    height: 100%;
 }
