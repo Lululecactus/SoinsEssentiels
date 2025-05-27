@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soins Essentiels</title>
-<!-- Link sytle -->
- <link rel="stylesheet" href="./style.css">
-<!-- adding fonts from google fonts -->
-<!-- font: Playfair Display SC -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Link sytle -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- adding fonts from google fonts -->
+    <!-- font: Playfair Display SC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- font: Montserrat -->
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- Fontawesome  pour les icones -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-</head>
-<body>
+    <!-- Fontawesome  pour les icones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="nav-bar">
-            <div class="nav-branding">
-                <img src="./Images/Desktop/lgog1.png" alt="Logo de Soins Essentiels">
-                <p>Soins Essentiels</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Acceuil</a></li>
-                    <li><a href="#">Les Soins <i class="fa-solid fa-caret-down"></i></a>
-                    <li><a href="#">A Propos</a></li>
-                    <li><a href="#">Contact & tarifs</a></li>
-                </ul>
-            </nav>
+      <div class="nav-bar">
+        <div class="nav-branding">
+          <img
+            src="./Images/Desktop/lgog1.png"
+            alt="Logo de Soins Essentiels"
+          />
+          <p>Soins Essentiels</p>
         </div>
-        <img src="./Images/Desktop/herobannermoodboard 1.webp" alt="">
+        <nav>
+          <ul>
+            <li class="active"><a href="#">Acceuil</a></li>
+            <li>
+              <a href="#">Les Soins <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="hidden-list">
+                <li><a href="#">Soin Énergétique</a></li>
+                <li><a href="#">Séance de Lithothérapie</a></li>
+                <li>
+                  <a href="#">Massage Sonore aux bols Chantants Tibétains</a>
+                </li>
+                <li><a href="#">Voyage Sonore </a></li>
+                <li><a href="#">Purification de Lieux</a></li>
+                <li><a href="#">Conseils Feng Shui  </a></li>
+              </ul>
+            </li>
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Contact & tarifs</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    
-</body>
+  </body>
 </html>
