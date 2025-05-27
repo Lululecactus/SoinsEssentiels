@@ -10,7 +10,7 @@
 html,
 body {
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -110,3 +110,39 @@ body {
   .active:hover {
     border-color: transparent;
   }
+
+
+  .hero-banner {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  align-items: center;
+  justify-items: center; 
+  height: 100vh;
+  background-color: #DED2C8;
+}
+
+.hero-banner img {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  object-fit: contain;
+  height: 100vh;
+}
+
+.titre {
+  grid-column: 1 / 12;
+  grid-row: 1;
+  z-index: 2;
+  justify-self: end;
+  text-align: right;
+}
+
+.titre h1 {
+  font-size: 48px;
+  color: #E38833;
+  font-family: "Playfair Display SC", serif;
+}
+
+.titre p {
+  text-align: center;
+  font-size: 22px;
+}
