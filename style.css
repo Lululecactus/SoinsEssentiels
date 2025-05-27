@@ -76,8 +76,10 @@ body {
   .hidden-list {
     display: none;
     flex-direction: column;
-    position: fixed;
     padding: 10px;
+    position: fixed;
+    margin: 8px ;
+    right: 50px;
     border-radius: 20px;
     background: #ded2c8d4;
     box-shadow:
@@ -85,6 +87,7 @@ body {
       inset -2px -4px 6px rgba(0, 0, 0, 0.2),
       0 8px 20px rgba(227, 136, 51, 0.15),
       0 2px 4px rgba(0, 0, 0, 0.2);
+      
   }
 
   .hidden-list li {
