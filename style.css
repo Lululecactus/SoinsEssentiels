@@ -290,6 +290,7 @@ button {
   padding: 15px 20px;
   border-radius: 35px;
   margin-left: 30px;
+  cursor: pointer;
 
 }
 
@@ -450,4 +451,17 @@ button {
   font-family: Playfair Display SC;
   font-size: 24px;
 
+}
+
+.card-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: inherit;       /* garde la couleur du texte */
+  text-decoration: none; /* enlève le soulignement */
+  height: 100%;
+}
+
+.card-link:hover {
+  cursor: pointer;
 }
