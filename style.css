@@ -341,7 +341,7 @@ button {
 .cards-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 20px;
+  column-gap: 40px;
   row-gap: 150px;
   padding: 35px;
 }
@@ -413,6 +413,7 @@ button {
 }
 
 .card-bottom button:hover {
+  background-color: #E38833;
   box-shadow:
     inset 2px 4px 6px rgba(255, 255, 255, 0.4),
     inset -2px -4px 6px rgba(0, 0, 0, 0.2),
