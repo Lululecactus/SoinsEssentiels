@@ -167,6 +167,7 @@ nav ul li:hover .hidden-list {
 
 .hero-card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 35px;
@@ -206,16 +207,20 @@ nav ul li:hover .hidden-list {
   text-align: center;
 }
 
+.mini-text{
+  font-size: 10px;
+}
+
 
 /* section1  et corps du site*/
 
 .section1 {
   background-color: #F4E5DB;
   height: 900px;
-  margin-top: -20px;
+  /* margin-top: -20px; */
   padding: 35px;
   position: relative;
-  border-radius: 20px 20px 400px 400px;
+  border-radius: 0px 0px 400px 400px;
   display: flex;
   align-items: center;
   z-index: 10;
