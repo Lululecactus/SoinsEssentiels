@@ -465,3 +465,10 @@ button {
 .card-link:hover {
   cursor: pointer;
 }
+
+.flower-offer{
+  position: absolute;
+  left: 0;
+  top: 650px;
+  opacity: 0.5;
+}
