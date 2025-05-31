@@ -257,7 +257,7 @@ nav ul li:hover .hidden-list {
   opacity: 0.5;
 }
 
-.section-content{
+.section-content {
   margin-top: 300px;
   display: flex;
   align-items: center;
@@ -270,7 +270,7 @@ nav ul li:hover .hidden-list {
   margin-bottom: 80px;
 }
 
-.section2{
+.section2 {
   height: 1500px;
   background-color: #EBCFBD;
   margin-top: -400px;
@@ -280,7 +280,7 @@ nav ul li:hover .hidden-list {
   z-index: 9;
 }
 
-button{
+button {
   border: none;
   padding: 15px 20px;
   border-radius: 35px;
@@ -288,17 +288,17 @@ button{
 
 }
 
-.btn-rdv{
-  background-color:#E38833;
+.btn-rdv {
+  background-color: #E38833;
 }
 
-.btn-about{
+.btn-about {
   background-color: #145A32;
   color: #fff;
   padding: 15px 43px;
 }
 
-.section2 button:hover{
+.section2 button:hover {
   background-color: #E38833;
   box-shadow:
     inset 2px 4px 6px rgba(255, 255, 255, 0.4),
@@ -311,12 +311,12 @@ button{
 
 }
 
-.section2 .text-container{
+.section2 .text-container {
   transform: translateY(-30px);
 }
 
 
-.section3{
+.section3 {
   background-color: #D9D9D9;
   margin-top: -400px;
   height: 1200px;
@@ -324,12 +324,134 @@ button{
   justify-content: center;
   align-items: center;
   border-radius: 0 0 800px 800px;
+  z-index: 8;
+  position: relative;
 }
 
-.section3 .text-container{
+.section3 .text-container {
   transform: translateY(200px);
 }
 
-.section3 h2{
+.section3 h2 {
   text-align: center;
+}
+
+
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 150px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wave-card {
+  position: absolute;
+  bottom: 0;
+}
+
+.card-top {
+  position: relative;
+  margin-bottom: 25px;
+
+}
+
+.card-photo {
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cadrage-image {
+  object-position: center 90%;
+}
+
+.card-middle {
+  width: 100%;
+  font-size: 16px;
+}
+
+.card-middle h3 {
+  text-align: center;
+  font-family: Playfair Display SC;
+  margin-bottom: 30px;
+}
+
+.card-middle p {
+  margin-bottom: 50px;
+  padding-left: 5px;
+
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 1px black;
+}
+
+.duration {
+  text-align: center;
+  border-right: 1px solid black;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.card-bottom button {
+  background-color: #E38833;
+  font-family: Montserrat;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.card-bottom button:hover {
+  box-shadow:
+    inset 2px 4px 6px rgba(255, 255, 255, 0.4),
+    inset -2px -4px 6px rgba(0, 0, 0, 0.2),
+    0 8px 20px rgba(227, 136, 51, 0.15),
+    0 2px 4px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: #fff;
+}
+
+.card-bottom button::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: yellow;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.section-offers {
+  margin-top: -700px;
+  height: 3400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 500px 500px;
+  background-color: #F4E5DB;
+  position: relative;
+  z-index: 7;
+  flex-direction: column;
+
+
+}
+
+.section-offers h2 {
+  margin-top: 400px;
+  margin-bottom: 100px;
+  font-family: Playfair Display SC;
+  font-size: 24px;
+
 }
