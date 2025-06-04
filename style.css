@@ -14,6 +14,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 img {
@@ -28,6 +30,7 @@ span {
 
 /* NAV BAR */
 .nav-bar {
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   padding: 20px 35px;
