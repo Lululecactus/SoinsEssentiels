@@ -125,15 +125,24 @@ nav ul li:hover .hidden-list {
   grid-template-columns: repeat(24, 1fr);
   align-items: center;
   justify-items: center;
-  height: 100vh;
+  height: 100vh; /* hauteur définie pour le conteneur */
   background-color: #DED2C8;
+  position: relative; /* pour gérer le stacking */
 }
 
-.hero-banner img {
+.hero-banner picture {
   grid-column: 1 / -1;
   grid-row: 1;
+  width: 100%;
+  height: 100%; 
+  display: block;
+}
+
+.hero-banner picture img {
+  width: 100%;
+  height: 100vh; 
   object-fit: contain;
-  height: 100vh;
+  display: block;
 }
 
 .titre {
@@ -212,6 +221,34 @@ nav ul li:hover .hidden-list {
 
 .mini-text{
   font-size: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .titre{
+    justify-self: center;
+    align-self: flex-start;
+    text-align: center;
+    grid-column: 6/20;
+
+  }
+
+  .titre h1{
+    font-size: 32px;
+  }
+  .titre p{
+    font-size: 18px;
+  }
+  .hero-banner{
+    padding-top: 90px;
+  } 
+  .nav-bar{
+    position: fixed;
+  }
+  .hero-banner picture img{
+    margin-top: 20px;
+    height: 60%;
+  }
+ 
 }
 
 
