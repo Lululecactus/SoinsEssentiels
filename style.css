@@ -119,6 +119,11 @@ nav ul li:hover .hidden-list {
   border-color: transparent;
 }
 
+#burger-menu{
+  display: none;
+}
+
+
 
 .hero-banner {
   display: grid;
@@ -626,4 +631,23 @@ button {
   margin-top: 30px;
   font-size: 0.9rem;
   color: black;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media  screen and (max-width: 1024px){
+  nav ul {
+    display: none;
+  }
+  #burger-menu{
+    display: block;
+  }
+
 }
